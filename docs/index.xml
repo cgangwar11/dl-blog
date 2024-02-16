@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on Hands-On Deep Learning</title>
+    <link>https://cgangwar11.github.io/dl-blog/docs/</link>
+    <description>Recent content in Docs on Hands-On Deep Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2024 04:25:03 +0530</lastBuildDate>
+    <atom:link href="https://cgangwar11.github.io/dl-blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://cgangwar11.github.io/dl-blog/docs/test/</link>
+      <pubDate>Sat, 17 Feb 2024 04:25:03 +0530</pubDate>
+      <guid>https://cgangwar11.github.io/dl-blog/docs/test/</guid>
+      <description>######## BLOGGG
+THis is a test blog</description>
+    </item>
+  </channel>
+</rss>
