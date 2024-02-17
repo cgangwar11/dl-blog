@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hands-On Deep Learning</title>
+    <title>A Journey Towards Deeper Understanding</title>
     <link>http://aineedattention.blog/</link>
-    <description>Recent content on Hands-On Deep Learning</description>
+    <description>Recent content on A Journey Towards Deeper Understanding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Feb 2024 04:25:03 +0530</lastBuildDate>
     <atom:link href="http://aineedattention.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
+      <title>Introduction</title>
       <link>http://aineedattention.blog/docs/test/</link>
       <pubDate>Sat, 17 Feb 2024 04:25:03 +0530</pubDate>
       <guid>http://aineedattention.blog/docs/test/</guid>
-      <description>######## BLOGGG
-THis is a test blog</description>
+      <description>Welcome to AINeedAttention.blog I&amp;rsquo;m thrilled you&amp;rsquo;re here, because we share a common interest: Artificial Intelligence. I&amp;rsquo;m particularly invested in delving deep into AI to uncover the oft-overlooked aspects of what makes it work – the things that need our attention, focus, and deeper understanding.
+My Objective The purpose of this blog, as the name suggests, is to shed light on the low-level mechanisms of AI. I firmly believe that understanding these mechanisms is crucial to appreciating the full potential of AI technologies while optimizing their capabilities.</description>
     </item>
   </channel>
 </rss>

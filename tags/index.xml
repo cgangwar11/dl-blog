@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Hands-On Deep Learning</title>
+    <title>Tags on A Journey Towards Deeper Understanding</title>
     <link>http://aineedattention.blog/tags/</link>
-    <description>Recent content in Tags on Hands-On Deep Learning</description>
+    <description>Recent content in Tags on A Journey Towards Deeper Understanding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://aineedattention.blog/tags/index.xml" rel="self" type="application/rss+xml" />
