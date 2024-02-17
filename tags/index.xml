@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Hands-On Deep Learning</title>
-    <link>https://cgangwar11.github.io/dl-blog/tags/</link>
+    <link>http://aineedattention.blog/tags/</link>
     <description>Recent content in Tags on Hands-On Deep Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://cgangwar11.github.io/dl-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://aineedattention.blog/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
