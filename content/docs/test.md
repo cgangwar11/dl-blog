@@ -13,9 +13,9 @@ I'm thrilled you're here, because we share a common interest: Artificial Intelli
 
 The purpose of this blog, as the name suggests, is to shed light on the low-level mechanisms of AI. I firmly believe that understanding these mechanisms is crucial to appreciating the full potential of AI technologies while optimizing their capabilities. 
 
-## Lower-Level Model (LLM) - The Unsung Hero
+## Large-Language Model (LLM) - The Unsung Hero
 
-When we gaze at AI's advancements, it's often the high-level implementation that grabs our attention. But behind those intriguing robot conversations and exciting autonomous vehicles is the unsung hero that makes it all possible: the Lower-Level Model (LLM). It's the structure, the foundation of everything AI promises and delivers.
+When we gaze at AI's advancements, it's often the high-level implementation that grabs our attention. But behind those intriguing robot conversations and exciting autonomous vehicles is the unsung hero that makes it all possible: the Large Language Model (LLM). It's the structure, the foundation of everything AI promises and delivers.
 
 Through this blog, my primary focus will be to scrutinize and demystify the intricacies of LLMs. This, I hope, will foster a newfound appreciation and understanding of AI technologies.
 
