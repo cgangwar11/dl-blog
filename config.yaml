@@ -1,7 +1,7 @@
 baseURL: "http://aineedattention.blog/"
 languageCode: en-us
 #Generate a good title for my deep learning blog
-title: Hands-On Deep Learning
+title: A Journey Towards Deeper Understanding
 theme: PaperMod
 
 enableEmoji: true
