@@ -6,8 +6,15 @@
     <description>Recent content on A Journey Towards Deeper Understanding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Feb 2024 04:25:03 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2024 06:32:09 +0530</lastBuildDate>
     <atom:link href="http://aineedattention.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Need For Speed</title>
+      <link>http://aineedattention.blog/docs/speed/</link>
+      <pubDate>Sat, 17 Feb 2024 06:32:09 +0530</pubDate>
+      <guid>http://aineedattention.blog/docs/speed/</guid>
+      <description>The Need for Speed: Unveiling the Drive Behind Large Language Models Large Language Models (LLMs) have taken the world by storm, generating human-quality text, translating languages with unprecedented accuracy, and even composing creative pieces like poems and code. But beneath this impressive facade lies a constant struggle: the need for speed. Just like a high-performance car, LLMs require a complex engine and meticulously tuned components to function at their best. In this blog post, we&amp;rsquo;ll delve into the factors that influence the speed of these language marvels and explore the challenges and solutions that push them to their limits.</description>
+    </item>
     <item>
       <title>Introduction</title>
       <link>http://aineedattention.blog/docs/test/</link>
