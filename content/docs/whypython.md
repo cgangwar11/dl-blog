@@ -167,7 +167,7 @@ merge_sort_cpp = load_inline(
 ```python
 test_data = [5,1,3,2,4]
 result = merge_sort_cpp.merge_sort_cpp(test_data)
-assert result == sorted(merge_sort_py(test_data)) == [1,2,3,4,5]
+assert result == merge_sort_py(test_data) == [1,2,3,4,5]
 ```
 
 Lets do performance comparison between the python and c++ code.
