@@ -29,20 +29,20 @@ This gives the best of both worlds. The performance of C/C++ and the ease of
 python. :)
 
 ## How to write code in C/C++ and use it in python?
-There are many ways to do this. The most common way is to use the python's
-`ctypes` library. But, this is not the best way to do this. The best way to do
-this is to use the `pybind11` library. This library is very easy to use and
-provides a very good interface to write C++ code and use it in python.
-
+One of the most popular library for this is `pybind11`. Pybind11 is a lightweight
+header only library which makes it easy to expose c++ code to python.
 pybind11 is also used in popular libraries like `pytorch` and `pandas`.
 
 
 
 
 ## How to use pybind11?
-Lets start with torch extensions library. This library is used to write custom
-layers and functions in pytorch. This library is written in C++ and uses
-pybind11 to use it in python.
+We will use torch extension library to use c++ code in python. The torch extension
+library is a part of pytorch and it makes it easy to use c++ code in python.
+Internally it uses pybind11 to expose c++ code to python. We will use this library
+to make it simpler to get started as we don't have to write a setup.py file and
+makefile to compile the c++ code into shared library. All of this process is abstracted
+away by the torch extension library.
 
 
 ### Lets import the required libraries
