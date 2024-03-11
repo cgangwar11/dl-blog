@@ -150,6 +150,7 @@ std::vector<int> merge_sort_cpp(std::vector<int> arr) {
 '''
 ```
 
+### Lets use the `load_inline` function to use the c++ code in python. This will compile the c++ code and use it in python as a module. In this case the module name is `merge_sort_cpp`.
 
 ```python
 merge_sort_cpp = load_inline(
@@ -161,6 +162,7 @@ merge_sort_cpp = load_inline(
 )
 ```
 
+### Lets test the c++ code with the python code. Notice how List[int] got converted to std::vector<int> and the return type got converted to List[int].
 
 ```python
 test_data = [5,1,3,2,4]
