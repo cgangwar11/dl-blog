@@ -1,5 +1,5 @@
 +++
-title = 'Accelerating Python with sprinkles of C++'
+title = 'Need for Speed: Accelerating Python with sprinkles of C++'
 date = 2024-03-11T04:42:21+05:30
 draft = false
 +++
@@ -211,3 +211,7 @@ plt.show()
 ![plot](/docs/f00816e7cc168cd244791548e80bae416cba803b.png "### Title")
     
 
+As we can see from the plot, the c++ code is much faster than the python code.
+In the next blog post we will see how to use pybind11 to write c++ code and use
+it in python. We will also see how to circumvent the GIL and write parallel
+code in python using c++.
