@@ -1,12 +1,12 @@
 +++
-title = 'Need For Speed'
+title = 'Need for Speed: Unveiling what lies beneath the engine which powers LLMs'
 date = 2024-02-17T06:32:09+05:30
 draft = false
 +++
 
 
 
-# The Need for Speed: Unveiling the Drive Behind Large Language Models
+# Why Speed Matters:
 
 
 
