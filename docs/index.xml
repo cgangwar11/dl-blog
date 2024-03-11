@@ -6,8 +6,16 @@
     <description>Recent content in Docs on A Journey Towards Deeper Understanding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Feb 2024 06:32:09 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 04:42:21 +0530</lastBuildDate>
     <atom:link href="http://aineedattention.blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating Python with sprinkles of C&#43;&#43;</title>
+      <link>http://aineedattention.blog/docs/whypython/</link>
+      <pubDate>Mon, 11 Mar 2024 04:42:21 +0530</pubDate>
+      <guid>http://aineedattention.blog/docs/whypython/</guid>
+      <description>Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.
+Drawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects.</description>
+    </item>
     <item>
       <title>Need For Speed</title>
       <link>http://aineedattention.blog/docs/speed/</link>
