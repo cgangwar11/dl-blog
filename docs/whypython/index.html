@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Accelerating Python with sprinkles of C&#43;&#43; | A Journey Towards Deeper Understanding</title>
+<title>Need for Speed: Accelerating Python with sprinkles of C&#43;&#43; | A Journey Towards Deeper Understanding</title>
 <meta name="keywords" content="">
 <meta name="description" content="Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.
 Drawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects.">
@@ -55,7 +55,7 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
         }
 
     </style>
-</noscript><meta property="og:title" content="Accelerating Python with sprinkles of C&#43;&#43;" />
+</noscript><meta property="og:title" content="Need for Speed: Accelerating Python with sprinkles of C&#43;&#43;" />
 <meta property="og:description" content="Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.
 Drawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects." />
 <meta property="og:type" content="article" />
@@ -64,7 +64,7 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
 <meta property="article:modified_time" content="2024-03-11T04:42:21+05:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Accelerating Python with sprinkles of C&#43;&#43;"/>
+<meta name="twitter:title" content="Need for Speed: Accelerating Python with sprinkles of C&#43;&#43;"/>
 <meta name="twitter:description" content="Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.
 Drawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects."/>
 
@@ -83,7 +83,7 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Accelerating Python with sprinkles of C++",
+      "name": "Need for Speed: Accelerating Python with sprinkles of C++",
       "item": "http://aineedattention.blog/docs/whypython/"
     }
   ]
@@ -93,14 +93,14 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Accelerating Python with sprinkles of C++",
-  "name": "Accelerating Python with sprinkles of C\u002b\u002b",
+  "headline": "Need for Speed: Accelerating Python with sprinkles of C++",
+  "name": "Need for Speed: Accelerating Python with sprinkles of C\u002b\u002b",
   "description": "Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.\nDrawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects.",
   "keywords": [
     
   ],
-  "articleBody": "Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.\nDrawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects. Python has really good libraries for data science and machine learning like numpy, pandas, scikit-learn, tensorflow, keras etc. How does performant libraries like numpy, pandas, scikit-learn etc. work? These libraries are written in C/C++ and wrapped with python. So, the core computation is done in C/C++ and the python is used for the high level abstraction and user interface. This gives the best of both worlds. The performance of C/C++ and the ease of python. :)\nHow to write code in C/C++ and use it in python? There are many ways to do this. The most common way is to use the python’s ctypes library. But, this is not the best way to do this. The best way to do this is to use the pybind11 library. This library is very easy to use and provides a very good interface to write C++ code and use it in python.\npybind11 is also used in popular libraries like pytorch and pandas.\nHow to use pybind11? Lets start with torch extensions library. This library is used to write custom layers and functions in pytorch. This library is written in C++ and uses pybind11 to use it in python.\nLets import the required libraries import torch import random ### load inline function makes it easier to import c++ code into python. ### It abstracts away the need to write a setup.py file and ### the need to compile the code separately. from torch.utils.cpp_extension import load_inline Lets implement naive solution for merge sort in python. # Implement merge sort in python def merge_sort_py(arr): if len(arr) \u003e 1: mid = len(arr) // 2 L = arr[:mid] R = arr[mid:] merge_sort_py(L) merge_sort_py(R) i = j = k = 0 while i \u003c len(L) and j \u003c len(R): if L[i] \u003c R[j]: arr[k] = L[i] i += 1 else: arr[k] = R[j] j += 1 k += 1 while i \u003c len(L): arr[k] = L[i] i += 1 k += 1 while j \u003c len(R): arr[k] = R[j] j += 1 k += 1 return arr Lets write the c++ code for merge sort and use it in python using torch extension library. cpp_source = ''' #include std::vector merge_sort_cpp(std::vector arr) { if (arr.size() \u003e 1) { int mid = arr.size() / 2; std::vector L(arr.begin(), arr.begin() + mid); std::vector R(arr.begin() + mid, arr.end()); L = merge_sort_cpp(L); R = merge_sort_cpp(R); int i = 0; int j = 0; int k = 0; while (i \u003c L.size() \u0026\u0026 j \u003c R.size()) { if (L[i] \u003c R[j]) { arr[k] = L[i]; i++; } else { arr[k] = R[j]; j++; } k++; } while (i \u003c L.size()) { arr[k] = L[i]; i++; k++; } while (j \u003c R.size()) { arr[k] = R[j]; j++; k++; } } return arr; } ''' merge_sort_cpp = load_inline( name = 'merge_sort_cpp', cpp_sources = [cpp_source], functions = ['merge_sort_cpp'], verbose= True, build_directory='.' ) test_data = [5,1,3,2,4] result = merge_sort_cpp.merge_sort_cpp(test_data) assert result == sorted(merge_sort_py(test_data)) == [1,2,3,4,5] Lets do performance comparison between the python and c++ code. For x axis we will use the size of the array and for y axis we will use the time taken to sort the array.\nimport matplotlib.pyplot as plt import numpy as np import time test_data_sizes = [10**i for i in range(2, 9)] test_data_legend = [i for i in range(2, 9)] python_runtimes = [] for size in test_data_sizes: test_input = random.sample(range(10**9), size) start_time = time.time() merge_sort_py(test_input) python_runtimes.append(time.time() - start_time) cpp_runtimes = [] for size in test_data_sizes: test_input = random.sample(range(10**9), size) start_time = time.time() merge_sort_cpp.merge_sort_cpp(test_input) cpp_runtimes.append(time.time() - start_time) plt.plot(test_data_legend, python_runtimes, marker='o', label='Python') plt.plot(test_data_legend, cpp_runtimes, marker='o', label='C++') plt.xlabel('Input Size 10^') plt.ylabel('Runtime (seconds)') plt.title('Merge Sort Runtime') plt.legend() plt.show() ",
-  "wordCount" : "680",
+  "articleBody": "Get out of the python For building performant system python is not really a good language. There are many lacking factors in python which makes it difficult to use for production level systems.\nDrawbacks of python Python is not a compiled language. Python is not a statically typed language. Python is not very parallelisable cause of GIL (Global Interpreter Lock). Pros of python Python is very easy to learn. Python is good for prototyping and small scale projects. Python has really good libraries for data science and machine learning like numpy, pandas, scikit-learn, tensorflow, keras etc. How does performant libraries like numpy, pandas, scikit-learn etc. work? These libraries are written in C/C++ and wrapped with python. So, the core computation is done in C/C++ and the python is used for the high level abstraction and user interface. This gives the best of both worlds. The performance of C/C++ and the ease of python. :)\nHow to write code in C/C++ and use it in python? There are many ways to do this. The most common way is to use the python’s ctypes library. But, this is not the best way to do this. The best way to do this is to use the pybind11 library. This library is very easy to use and provides a very good interface to write C++ code and use it in python.\npybind11 is also used in popular libraries like pytorch and pandas.\nHow to use pybind11? Lets start with torch extensions library. This library is used to write custom layers and functions in pytorch. This library is written in C++ and uses pybind11 to use it in python.\nLets import the required libraries import torch import random ### load inline function makes it easier to import c++ code into python. ### It abstracts away the need to write a setup.py file and ### the need to compile the code separately. from torch.utils.cpp_extension import load_inline Lets implement naive solution for merge sort in python. # Implement merge sort in python def merge_sort_py(arr): if len(arr) \u003e 1: mid = len(arr) // 2 L = arr[:mid] R = arr[mid:] merge_sort_py(L) merge_sort_py(R) i = j = k = 0 while i \u003c len(L) and j \u003c len(R): if L[i] \u003c R[j]: arr[k] = L[i] i += 1 else: arr[k] = R[j] j += 1 k += 1 while i \u003c len(L): arr[k] = L[i] i += 1 k += 1 while j \u003c len(R): arr[k] = R[j] j += 1 k += 1 return arr Lets write the c++ code for merge sort and use it in python using torch extension library. cpp_source = ''' #include std::vector merge_sort_cpp(std::vector arr) { if (arr.size() \u003e 1) { int mid = arr.size() / 2; std::vector L(arr.begin(), arr.begin() + mid); std::vector R(arr.begin() + mid, arr.end()); L = merge_sort_cpp(L); R = merge_sort_cpp(R); int i = 0; int j = 0; int k = 0; while (i \u003c L.size() \u0026\u0026 j \u003c R.size()) { if (L[i] \u003c R[j]) { arr[k] = L[i]; i++; } else { arr[k] = R[j]; j++; } k++; } while (i \u003c L.size()) { arr[k] = L[i]; i++; k++; } while (j \u003c R.size()) { arr[k] = R[j]; j++; k++; } } return arr; } ''' merge_sort_cpp = load_inline( name = 'merge_sort_cpp', cpp_sources = [cpp_source], functions = ['merge_sort_cpp'], verbose= True, build_directory='.' ) test_data = [5,1,3,2,4] result = merge_sort_cpp.merge_sort_cpp(test_data) assert result == sorted(merge_sort_py(test_data)) == [1,2,3,4,5] Lets do performance comparison between the python and c++ code. For x axis we will use the size of the array and for y axis we will use the time taken to sort the array.\nimport matplotlib.pyplot as plt import numpy as np import time test_data_sizes = [10**i for i in range(2, 9)] test_data_legend = [i for i in range(2, 9)] python_runtimes = [] for size in test_data_sizes: test_input = random.sample(range(10**9), size) start_time = time.time() merge_sort_py(test_input) python_runtimes.append(time.time() - start_time) cpp_runtimes = [] for size in test_data_sizes: test_input = random.sample(range(10**9), size) start_time = time.time() merge_sort_cpp.merge_sort_cpp(test_input) cpp_runtimes.append(time.time() - start_time) plt.plot(test_data_legend, python_runtimes, marker='o', label='Python') plt.plot(test_data_legend, cpp_runtimes, marker='o', label='C++') plt.xlabel('Input Size 10^') plt.ylabel('Runtime (seconds)') plt.title('Merge Sort Runtime') plt.legend() plt.show() As we can see from the plot, the c++ code is much faster than the python code. In the next blog post we will see how to use pybind11 to write c++ code and use it in python. We will also see how to circumvent the GIL and write parallel code in python using c++.\n",
+  "wordCount" : "735",
   "inLanguage": "en",
   "datePublished": "2024-03-11T04:42:21+05:30",
   "dateModified": "2024-03-11T04:42:21+05:30",
@@ -169,7 +169,7 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Accelerating Python with sprinkles of C&#43;&#43;
+      Need for Speed: Accelerating Python with sprinkles of C&#43;&#43;
     </h1>
     <div class="post-meta"><span title='2024-03-11 04:42:21 +0530 +0530'>March 11, 2024</span>
 
@@ -342,6 +342,10 @@ taken to sort the array.</p>
 </span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
 </span></span></code></pre></div><p><img loading="lazy" src="/docs/f00816e7cc168cd244791548e80bae416cba803b.png" alt="plot"  title="### Title"  />
 </p>
+<p>As we can see from the plot, the c++ code is much faster than the python code.
+In the next blog post we will see how to use pybind11 to write c++ code and use
+it in python. We will also see how to circumvent the GIL and write parallel
+code in python using c++.</p>
 
 
   </div>
