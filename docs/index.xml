@@ -21,7 +21,7 @@ Drawbacks of python Python is not a compiled language. Python is not a staticall
       <link>http://aineedattention.blog/docs/speed/</link>
       <pubDate>Sat, 17 Feb 2024 06:32:09 +0530</pubDate>
       <guid>http://aineedattention.blog/docs/speed/</guid>
-      <description>Why Speed Matters: Large Language Models (LLMs) have taken the world by storm, generating human-quality text, translating languages with unprecedented accuracy, and even composing creative pieces like poems and code. But beneath this impressive facade lies a constant struggle: the need for speed. Just like a high-performance car, LLMs require a complex engine and meticulously tuned components to function at their best. In this blog post, we&amp;rsquo;ll delve into the factors that influence the speed of these language marvels and explore the challenges and solutions that push them to their limits.</description>
+      <description>Why Speed Matters: Large Language Models (LLMs) have really taken the world by storm, generating human-quality text, translating languages with unprecedented accuracy, and even composing creative pieces like poems and code. But beneath this impressive facade lies a constant struggle: the need for speed. Just like a high-performance car, LLMs require a complex engine and meticulously tuned components to function at their best. In this blog post, we&amp;rsquo;ll delve into the factors that influence the speed of these language marvels and explore the challenges and solutions that push them to their limits.</description>
     </item>
     <item>
       <title>Introduction</title>
